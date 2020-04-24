@@ -1082,65 +1082,57 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.5;
 }
-.cid-rX6Ou0Fk1e {
+.cid-rX6Sw5QMDN {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #f7f7f7;
+  background-image: url("../../../assets/images/background2.jpg");
 }
-.cid-rX6Ou0Fk1e .row {
-  -webkit-justify-content: center;
-  justify-content: center;
+.cid-rX6Sw5QMDN .media-container-row {
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
 }
-.cid-rX6Ou0Fk1e .text-black {
-  font-weight: 800;
-  letter-spacing: 0.1em;
+.cid-rX6Sw5QMDN .list-group-item {
+  padding: .5rem 2rem;
 }
-.cid-rX6Ou0Fk1e .btn {
-  margin-bottom: 2rem;
-}
-.cid-rX6Ou0Fk1e .mbr-text {
-  color: #444;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-}
-.cid-rX6Ou0Fk1e .social-list {
-  -webkit-justify-content: center;
-  justify-content: center;
-  display: flex;
+.cid-rX6Sw5QMDN .plan {
+  background: #ffffff;
+  position: relative;
+  max-width: 300px;
+  padding-right: 0;
   padding-left: 0;
-  margin-bottom: 25px;
-  list-style: none;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
-.cid-rX6Ou0Fk1e .social-list .mbr-iconfont-social {
-  font-size: 2rem;
-  color: black;
+.cid-rX6Sw5QMDN .plan .plan-title {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: #8264fd;
 }
-.cid-rX6Ou0Fk1e .social-list .soc-item {
-  margin: 0 .5rem;
+.cid-rX6Sw5QMDN .plan .plan-price {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
 }
-.cid-rX6Ou0Fk1e .social-list a {
-  margin: 0;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+.cid-rX6Sw5QMDN .plan .list-group-item {
+  position: relative;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border: 0;
+  background: none;
 }
-.cid-rX6Ou0Fk1e .social-list a:hover {
-  opacity: .4;
+.cid-rX6Sw5QMDN .plan .list-group-item:last-child::after {
+  display: none;
 }
-@media (max-width: 767px) {
-  .cid-rX6Ou0Fk1e .social-list {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
+.cid-rX6Sw5QMDN .plan .mbr-section-btn a {
+  margin-bottom: 0;
 }
-@media (max-width: 575px) {
-  .cid-rX6Ou0Fk1e .mbr-text {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
+.cid-rX6Sw5QMDN .plan .plan-body {
+  position: relative;
+  padding-bottom: 3rem;
 }
-.cid-rX6Ou0Fk1e .links {
-  color: #232323;
-  text-align: center;
+.cid-rX6Sw5QMDN .plan-header {
+  padding-bottom: 1rem;
+  position: relative;
 }
